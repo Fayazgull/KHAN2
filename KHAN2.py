@@ -17,14 +17,14 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('KHAN2.so'):
-        os.system('curl -L https://github.com/Sarfraz-XD/executables/blob/main/Sarfraz.cpython-311.so?raw=true -o Sarfraz.so') 
+        os.system('curl -L https://github.com/KHAN2-XD/executables/blob/main/KHAN2.cpython-311.so?raw=true -o KHAN2.so') 
         import KHAN2
     else:
         import KHAN2
 
 elif bit == '32bit':
     if not os.path.isfile('KHAN2.so'):
-        os.system('curl -L https://github.com/KHAN2-XD/executables/blob/main/KHAN2.cpython-311.so?raw=true -o Sarfraz32.so') 
+        os.system('curl -L https://github.com/KHAN2-XD/executables/blob/main/KHAN2.cpython-311.so?raw=true -o KHAN2.so') 
         import KHAN2
     else:
         import KHAN2
